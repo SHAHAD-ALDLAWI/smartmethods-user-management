@@ -1,0 +1,13 @@
+# حفظ معلومات الاتصال الحساسة
+api/config.php
+
+# ملفات النظام
+.DS_Store
+.env
+Thumbs.db
+
+# ملفات المحرر
+.vscode/
+.idea/
+*.swp
+*.swo

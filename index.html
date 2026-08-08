@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartMethods - User Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://via.placeholder.com/150x50?text=SmartMethods" alt="SmartMethods Logo">
+        </div>
+
+        <div class="form-section">
+            <h2>Add New User</h2>
+            <form id="userForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Name" required>
+                    <input type="number" id="age" placeholder="Age" required>
+                    <button type="submit" class="btn-submit">Submit</button>
+                </div>
+            </form>
+            <p id="message" class="message"></p>
+        </div>
+
+        <div class="table-section">
+            <h2>User Records</h2>
+            <table id="userTable">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- سيتم ملء هذا من JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
