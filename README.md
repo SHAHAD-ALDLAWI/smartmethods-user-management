@@ -1,5 +1,5 @@
 # smartmethods-user-management 
-# SmartMethods - User Management System
+
 
 A simple web application for managing users with live updates.
 
